@@ -1,0 +1,40 @@
+.body{
+    background-color: rgb(63, 134, 146);
+    padding:0;
+    margin:0;
+    border-radius: circle;
+}
+
+.profile-card1{
+background-color: white;
+color:azure;
+border-image-width: 50px;
+padding:10px 20px;
+font-size:16px;
+display:flex;
+box-shadow:2px 2px 8px rgba(0,0,0,0.2)
+
+
+}
+.profile-card1:hovor{
+    box-shadow:0.3;
+    transform: translateY(-8);
+
+}
+
+.profile-card2{
+background-color: white;
+color:azure;
+padding:10px 20px;
+font-size:16px;
+display:flex;
+border-image-width: 50px;
+box-shadow:2px 2px 8px rgba(0,0,0,0.2)
+
+
+}
+.profile-card2:hovor{
+    box-shadow:0.3;
+    transform: translateY(-8);
+
+}

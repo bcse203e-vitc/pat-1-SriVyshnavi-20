@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Course Enrollment Form</title>
+    </head>
+    <body>
+        <form action="/studentInfo" method="post">
+        <h1>Personal Information</h1>
+        <label for="FullName">FullName</label><br>
+        <input type="text" id="FullName" name="FullName" required><br><br>
+        <label for="Student ID">Student ID</label><br>
+        <input type="text" id="Student ID" name="Student ID" required><br><br>
+        <label for="Email Address">EmailAddress</label><br>
+        <input type="text" id="Email Address" name="Email Address" required><br><br>
+        <label for="Year Of Study">Year Of Study</label><br><br>
+        <input type="radio" id="1st year" name="1st year" required>
+        <label for="1st year">1st year</label><br>
+        <input type="radio" id="2nd year" name="2nd year" required>
+        <label for="2nd year">2nd year</label><br>
+        <input type="radio" id="3rd year" name="3rd year" required>
+        <label for="3rd year">3rd year</label><br>
+        <input type="radio" id="Final year" name="Final year" required>
+        <label for="Final year">Final year</label>
+        
+</form>
+<h1>
+    Academic Details
+</h1>
+<form action="/academic information" method="post">
+<label for="Department">Department<br>
+    
+    <input type="text" id="Department" name="class" value="--Select Department--"required>
+     <section id="Department">
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="MECH">MECH</option>
+    <option value="CIVIL">CIVIL</option> <br> <br>
+
+</section>
+<label for="Available courses">Available Courses:</label><br>
+       <input type="radio" id="CSE" name="CSE" required>
+        <label for="CSE">CSE</label><br>
+        <input type="radio" id="ECE" name="ECE" required>
+        <label for="ECE">ECE</label><br>
+        <input type="radio" id="CEC" name="CEC" required>
+        <label for="CEC">CEC</label><br>
+        <input type="radio" id="AIML" name="AIML" required>
+        <label for="AIML">AIML</label><br>
+        <input type="radio" id="MECH" name="MECH" required>
+        <label for="MECH">MECH</label><br>
+        <input type="radio" id="CIVIL" name="CIVIL" required>
+        <label for="CIVIL">CIVIL</label><br>
+        <input type="radio" id="DS" name="DS" required>
+        <label for="DS">DS</label><br>
+</form>
+
+<h1> Additional Information</h1>  <br>
+
+<form action="/additional info" method="post">
+    <label for="statement of purpose">Statement of purpose</label><br>
+    <input type="text" id="statement of purpose" name="statement of purpose" maxlength="300"><br>
+
+    <label for="Upload Student id proof">Upload student id proof</label><br>
+    <input type="text" id="Upload student id proof" name="class" value="PDF or IMG files"><br>
+    <label for="mode of learning">Mode of learning:</label><br>
+
+    <input type="radio" id="online" name="online" required>
+    <label for="online">Online</label><br><br>
+    <input type="radio" id="offline" name="offline" required>
+    <label for="offline">Offline</label><br><br>
+     <input type="Checkbox" id="Terms and conditions " name="Terms and conditions" required>
+     <label for="Terms and conditions">Terms and conditions</label><br>
+</form>
+<button value="Submit">Submit</button>
+<button value="Reset">Reset</button>
+    </body>
+</html>
